@@ -3,8 +3,8 @@
 ```
 php_trim_chars(string, int);
 ```
-* string: the string to trim  
-* int: character limit of the string
+* __string:__ the string to trim  
+* __int:__ character limit of the string
 ### Demo
 echo php_trim_chars('This is a very very very super duper long string', 12);
 This is a ve ...

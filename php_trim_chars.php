@@ -1,14 +1,12 @@
-function php_trim_chars($text = null, $limit = null) {
-
-    $textData = [];
+function php_trim_chars($string = null, $limit = null) {
+    $stringData = [];
     $i = 0;
-    if(strlen($text) > $limit) {
+    if(strlen($string) > $limit) {
         for($i; $i < $limit; $i++) {
-            $textData[] = $text[$i];
+            $stringData[] = $string[$i];
         }
-        return implode('', $textData) . ' ...';
+        return implode('', $stringData) . ' ...';
     } else {
-        return $text;
+        return $string;
     }
-    
 }
